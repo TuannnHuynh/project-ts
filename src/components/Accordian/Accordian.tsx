@@ -30,7 +30,7 @@ const Accordian = () => {
   };
   console.log(multiple);
   return (
-    <div className="wrapper mt-20 flex flex-col items-center justify-center gap-5">
+    <div className="wrapper flex h-screen flex-col items-center justify-center gap-5">
       <button
         onClick={() => setEnableMultiSection(!enableMultiSelection)}
         className="bg-[#000] px-5 py-[10px] text-[#fff]"
