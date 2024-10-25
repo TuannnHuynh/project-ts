@@ -68,7 +68,7 @@ const ImageSlider = ({ url, limit = 5, page = 1 }: Api) => {
   return (
     <>
       <h2 className="mb-10 text-center text-4xl font-bold">Images Slider</h2>
-      <div className="flex w-full justify-center">
+      <div className="flex w-full justify-center px-2 md:px-0">
         <div className="images-slider relative flex h-[450px] w-[600px] items-center justify-center">
           <BsArrowLeftCircleFill
             onClick={handlePrevious}

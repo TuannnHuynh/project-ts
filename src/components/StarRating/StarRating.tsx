@@ -18,7 +18,7 @@ const StarRating = ({ noOfStars = 10 }) => {
   return (
     <>
       <h2 className="my-10 text-center text-4xl font-bold">Star Rating</h2>
-      <div className="start-rating mb-16 flex justify-center">
+      <div className="start-rating mb-16 flex justify-center px-4 md:px-0">
         {[...Array(noOfStars)].map((_, idx) => {
           idx += 1;
           return (
@@ -28,7 +28,7 @@ const StarRating = ({ noOfStars = 10 }) => {
               onClick={() => handleClick(idx)}
               onMouseEnter={() => handleMouseEnter(idx)}
               onMouseLeave={() => handleMouseLeave()}
-              size={40}
+              size={35}
             />
           );
         })}

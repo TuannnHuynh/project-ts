@@ -30,9 +30,9 @@ const Accordian = () => {
   };
   console.log(multiple);
   return (
-    <>
-      <h1 className="mb-10 mt-12 text-center text-4xl font-bold">Accordian</h1>
-      <div className="wrapper flex h-screen flex-col items-center gap-5">
+    <div className="py-16">
+      <h1 className="mb-10 text-center text-4xl font-bold">Accordian</h1>
+      <div className="wrapper flex flex-col items-center gap-5">
         <button
           onClick={() => setEnableMultiSection(!enableMultiSelection)}
           className="bg-[#000] px-5 py-[10px] text-[#fff]"
@@ -41,7 +41,7 @@ const Accordian = () => {
             ? "Enable One Selection"
             : "Enable Multi Selection"}
         </button>
-        <div className="accordian w-[500px]">
+        <div className="accordian px-3 sm:w-[500px] sm:px-1">
           {data && data.length > 0 ? (
             data.map((val: QuestionAnswer) => {
               return (
@@ -79,7 +79,7 @@ const Accordian = () => {
           )}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
