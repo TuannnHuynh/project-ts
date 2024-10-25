@@ -1,6 +1,7 @@
 import Accordian from "./components/Accordian/Accordian";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import LoadMore from "./components/LoadMore/LoadMore";
+import QRCodeGeneration from "./components/QRCodeGeneration/QRCodeGeneration";
 import RandomColor from "./components/RandomColor/RandomColor";
 import StarRating from "./components/StarRating/StarRating";
 import TreeView from "./components/TreeView/TreeView";
@@ -15,6 +16,7 @@ const App = () => {
       <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} page={1} />
       <LoadMore />
       <TreeView menus={menus} />
+      <QRCodeGeneration />
     </div>
   );
 };
