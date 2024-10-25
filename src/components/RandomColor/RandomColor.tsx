@@ -47,8 +47,11 @@ const RandomColor = () => {
   return (
     <div
       style={{ backgroundColor: color }}
-      className="h-screen pt-20 text-center"
+      className="h-screen py-14 text-center"
     >
+      <h2 className="mb-6 text-center text-4xl font-bold text-[#fff]">
+        Random Color
+      </h2>
       <button
         className="bg-slate-50 px-5 py-[10px]"
         onClick={() => setTypeOfColor("hex")}
