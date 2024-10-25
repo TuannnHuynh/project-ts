@@ -9,8 +9,8 @@ const MenuList = ({ list = [] }: MenuListProps) => {
   return (
     <ul className="">
       {list && list.length
-        ? list.map((val) => {
-            return <MenuItem item={val} />;
+        ? list.map((val, idx) => {
+            return <MenuItem key={`item-${idx}`} item={val} />;
           })
         : null}
     </ul>

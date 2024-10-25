@@ -1,5 +1,6 @@
 import Accordian from "./components/Accordian/Accordian";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
+import LightDarkMode from "./components/LightDarkMode/LightDarkMode";
 import LoadMore from "./components/LoadMore/LoadMore";
 import QRCodeGeneration from "./components/QRCodeGeneration/QRCodeGeneration";
 import RandomColor from "./components/RandomColor/RandomColor";
@@ -17,6 +18,7 @@ const App = () => {
       <LoadMore />
       <TreeView menus={menus} />
       <QRCodeGeneration />
+      <LightDarkMode />
     </div>
   );
 };

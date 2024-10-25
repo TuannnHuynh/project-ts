@@ -52,10 +52,10 @@ const LoadMore = () => {
       <h2 className="my-10 text-center text-4xl font-bold">Load More</h2>
       <div className="products flex flex-wrap justify-center gap-4">
         {products && products.length
-          ? products.map((val) => {
+          ? products.map((val, idx) => {
               return (
                 <div
-                  key={`product-${val.id}`}
+                  key={`pro-${idx + 1}`}
                   className="rounded-md border-[2px] border-solid border-[#333] p-2"
                 >
                   <img
