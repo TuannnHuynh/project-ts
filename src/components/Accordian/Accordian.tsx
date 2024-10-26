@@ -30,7 +30,7 @@ const Accordian = () => {
   };
   console.log(multiple);
   return (
-    <div className="py-16">
+    <div className="md-[62px] mt-[52px] py-16">
       <h1 className="mb-10 text-center text-4xl font-bold">Accordian</h1>
       <div className="wrapper flex flex-col items-center gap-5">
         <button

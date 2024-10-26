@@ -60,7 +60,7 @@ const ScrollIndicator = ({ url }: ScrollIndicatorProps) => {
   }
 
   return (
-    <div>
+    <div className="mt-[72px]">
       <div className="top-container fixed top-0 z-10 w-full bg-[#075b0a] py-3 text-[#fff]">
         <h2 className="text-center text-2xl">Custom Scroll Indicator</h2>
         <div className="scroll-progress-tracking-container h-[12px] pt-4">

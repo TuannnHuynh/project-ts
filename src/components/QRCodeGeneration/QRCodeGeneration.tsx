@@ -13,7 +13,7 @@ const QRCodeGeneration = () => {
       <h2 className="mb-10 text-center text-3xl font-bold text-[#333] sm:text-5xl">
         QR Code Generation
       </h2>
-      <div className="input-group mb-5 flex px-4">
+      <div className="input-group mb-5 flex">
         <input
           className="rounded-lg rounded-e-none border-[2px] border-e-0 border-[#333] px-3 py-2 outline-none md:w-[250px] lg:w-[300px]"
           type="text"
