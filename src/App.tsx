@@ -2,6 +2,7 @@ import Accordian from "./components/Accordian/Accordian";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import LightDarkMode from "./components/LightDarkMode/LightDarkMode";
 import LoadMore from "./components/LoadMore/LoadMore";
+import ModalTest from "./components/Modal/ModalTest";
 import QRCodeGeneration from "./components/QRCodeGeneration/QRCodeGeneration";
 import RandomColor from "./components/RandomColor/RandomColor";
 import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator";
@@ -23,6 +24,8 @@ const App = () => {
       <LightDarkMode />
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       <Tab />
+
+      <ModalTest />
     </div>
   );
 };
