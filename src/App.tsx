@@ -1,4 +1,5 @@
 import Accordian from "./components/Accordian/Accordian";
+import GithubProfile from "./components/GithubProfile/GithubProfile";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import LightDarkMode from "./components/LightDarkMode/LightDarkMode";
 import LoadMore from "./components/LoadMore/LoadMore";
@@ -24,8 +25,8 @@ const App = () => {
       <LightDarkMode />
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       <Tab />
-
       <ModalTest />
+      <GithubProfile />
     </div>
   );
 };
