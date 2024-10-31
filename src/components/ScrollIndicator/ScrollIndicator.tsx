@@ -75,8 +75,10 @@ const ScrollIndicator = ({ url }: ScrollIndicatorProps) => {
           List Product Test Scroll Indicator
         </h3>
         {products && products.length > 0
-          ? products.map((val) => (
-              <p className="mt-2 text-center">{val.title}</p>
+          ? products.map((val, idx) => (
+              <p key={idx} className="mt-2 text-center">
+                {val.title}
+              </p>
             ))
           : null}
       </div>

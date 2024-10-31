@@ -1,5 +1,5 @@
 import Accordian from "./components/Accordian/Accordian";
-import GithubProfile from "./components/GithubProfile/GithubProfile";
+//import GithubProfile from "./components/GithubProfile/GithubProfile";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import LightDarkMode from "./components/LightDarkMode/LightDarkMode";
 import LoadMore from "./components/LoadMore/LoadMore";
@@ -7,6 +7,7 @@ import ModalTest from "./components/Modal/ModalTest";
 import QRCodeGeneration from "./components/QRCodeGeneration/QRCodeGeneration";
 import RandomColor from "./components/RandomColor/RandomColor";
 import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator";
+import SearchAutocomplete from "./components/SearchAutocomplete/SearchAutocomplete";
 import StarRating from "./components/StarRating/StarRating";
 import Tab from "./components/Tabs/Tab";
 import TreeView from "./components/TreeView/TreeView";
@@ -26,7 +27,8 @@ const App = () => {
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       <Tab />
       <ModalTest />
-      <GithubProfile />
+      {/* <GithubProfile /> */}
+      <SearchAutocomplete />
     </div>
   );
 };
