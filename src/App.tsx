@@ -10,6 +10,7 @@ import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator";
 import SearchAutocomplete from "./components/SearchAutocomplete/SearchAutocomplete";
 import StarRating from "./components/StarRating/StarRating";
 import Tab from "./components/Tabs/Tab";
+import TicTactToe from "./components/TicTactToe/TicTactToe";
 import TreeView from "./components/TreeView/TreeView";
 import menus from "./components/TreeView/data";
 
@@ -27,8 +28,9 @@ const App = () => {
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       <Tab />
       <ModalTest />
-      {/* <GithubProfile /> */}
       <SearchAutocomplete />
+      {/* <GithubProfile /> */}
+      <TicTactToe />
     </div>
   );
 };
