@@ -13,6 +13,7 @@ import Tab from "./components/Tabs/Tab";
 import TicTactToe from "./components/TicTactToe/TicTactToe";
 import TreeView from "./components/TreeView/TreeView";
 import menus from "./components/TreeView/data";
+// import UseFetchHookTest from "./hooks/fetch/UseFetchHookTest";
 
 const App = () => {
   return (
@@ -29,8 +30,9 @@ const App = () => {
       <Tab />
       <ModalTest />
       <SearchAutocomplete />
-      {/* <GithubProfile /> */}
       <TicTactToe />
+      {/* <GithubProfile /> */}
+      {/* <UseFetchHookTest /> */}
     </div>
   );
 };
