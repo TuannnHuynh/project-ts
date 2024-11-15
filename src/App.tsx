@@ -7,6 +7,7 @@ import ModalTest from "./components/Modal/ModalTest";
 import QRCodeGeneration from "./components/QRCodeGeneration/QRCodeGeneration";
 import RandomColor from "./components/RandomColor/RandomColor";
 import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator";
+import ScrollTopAndBottom from "./components/ScrollTopAndBottom/ScrollTopAndBottom";
 import SearchAutocomplete from "./components/SearchAutocomplete/SearchAutocomplete";
 import StarRating from "./components/StarRating/StarRating";
 import Tab from "./components/Tabs/Tab";
@@ -20,7 +21,7 @@ import UseWindowResizeTest from "./hooks/resize/UseWindowResizeTest";
 const App = () => {
   return (
     <div>
-      {/* <Accordian />
+      <Accordian />
       <RandomColor />
       <StarRating />
       <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} page={1} />
@@ -32,11 +33,12 @@ const App = () => {
       <Tab />
       <ModalTest />
       <SearchAutocomplete />
-      <TicTactToe /> */}
+      <TicTactToe />
+      <ScrollTopAndBottom />
       {/* <GithubProfile /> */}
       {/* <UseFetchHookTest /> */}
       {/* <UseOutSideClickTest /> */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
     </div>
   );
 };
