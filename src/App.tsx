@@ -13,12 +13,14 @@ import Tab from "./components/Tabs/Tab";
 import TicTactToe from "./components/TicTactToe/TicTactToe";
 import TreeView from "./components/TreeView/TreeView";
 import menus from "./components/TreeView/data";
+import UseOutSideClickTest from "./hooks/ouside/UseOutSideClickTest";
+import UseWindowResizeTest from "./hooks/resize/UseWindowResizeTest";
 // import UseFetchHookTest from "./hooks/fetch/UseFetchHookTest";
 
 const App = () => {
   return (
     <div>
-      <Accordian />
+      {/* <Accordian />
       <RandomColor />
       <StarRating />
       <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} page={1} />
@@ -30,9 +32,11 @@ const App = () => {
       <Tab />
       <ModalTest />
       <SearchAutocomplete />
-      <TicTactToe />
+      <TicTactToe /> */}
       {/* <GithubProfile /> */}
       {/* <UseFetchHookTest /> */}
+      {/* <UseOutSideClickTest /> */}
+      <UseWindowResizeTest />
     </div>
   );
 };
