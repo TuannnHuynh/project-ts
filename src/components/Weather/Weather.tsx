@@ -74,12 +74,13 @@ const Weather = () => {
       ) : (
         weatherData && (
           <div className="text-center">
-            <h3>
+            <h3 className="my-1 text-xl font-medium">
               {weatherData.name} - <span>{weatherData.sys.country}</span>
             </h3>
             <div className="weather-date">
               <span>{getCurrentDate()}</span>
             </div>
+            <div className="temp">{weatherData.main.temp}</div>
             <p className="weather-des">
               {weatherData.weather && weatherData.weather[0]
                 ? weatherData.weather[0].description
